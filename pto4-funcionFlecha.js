@@ -10,4 +10,4 @@ let calcularEnergia = () =>{
     return cont
 }
 let cantidadNegativas = calcularEnergia()
-console.log(cantidadNegativas);
+console.log(`La cantidad de sables con energia negativa son = ${cantidadNegativas}`);
