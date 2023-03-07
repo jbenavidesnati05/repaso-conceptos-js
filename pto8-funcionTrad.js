@@ -17,7 +17,7 @@ function calcularAgua (){
 }
 
 let cantidadAgua = calcularAgua()
-console.log(`la cantidad de agua de todos los planetas es : ${cantidadAgua} litros de agua`);
+console.log(cantidadAgua);
 
 let sumaPor100 = 0 
 function calcularAgua100 (){
@@ -25,7 +25,7 @@ function calcularAgua100 (){
     return sumaPor100
 }
 let cantidadAgua100 = calcularAgua100()
-console.log(`la cantidad de agua de todos los planetas multiplicada por 100 es : ${cantidadAgua100} litros de agua`);
+console.log(cantidadAgua100);
 
 function encontrarNegativo(){
     encontrado = infoPlanetas.find(item => item.oxigeno < 0)
